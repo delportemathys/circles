@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.head-bar {
+    width: 100%;
+    height: 15%;
+    background: #FF9600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.site-name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.under-head-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.definitions {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.75em;
+    margin: 5%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box {
+    width: 400px;
+    height: 485px;
+    border: solid 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 90%;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #388EF8;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    width: 100%;
+    height: 75%;
+}
+
+.name {
+    margin: 3%;
+    text-transform: uppercase;
+}
+
+.def {
+    margin-bottom: 3%;
+}
+
+@media (max-width: 1250px) {
+    .line {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .box {
+        width: 90%;
+    }
+}
